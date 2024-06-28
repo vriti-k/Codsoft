@@ -10,6 +10,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use(cors());
 
+
 //Database Connection With MongoDB Atlas
 mongoose.connect("mongodb+srv://vritikhandelwal:Kuhu*kush@cluster0.st6xk3y.mongodb.net/e-commerce");
 
