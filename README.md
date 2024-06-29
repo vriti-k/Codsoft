@@ -1,8 +1,27 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Download the needed dependencies like:
+
+First, download the needed dependencies like:
+```
+npx create-next-app@latest project-manager
+# and
+npm i styled-components
+# and
+npm i @prisma/client prisma@latest
+# and
+npm i axios
+# and
+npm install react-hot-toast
+# and
+npm install autoprefixer
+# and
+ npm install nextjs-toploader
+```
+
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
